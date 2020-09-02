@@ -10,7 +10,7 @@ body {
 
 /*
 Added nav, nav ul, nav li, and nav a elements to replace the previous 
-source used for the nav element CSS: 
+source used for the nav element CSS, and removed the styling for the header class and sub-elements: 
     https://teamtreehouse.com/community/how-to-space-out-links-across-the-nav-bar
 */
 
@@ -62,6 +62,25 @@ p {
 }
 
 .hero {
+    height: 800px;
+    margin-bottom: 25px;
+
+  }
+
+/*  background-size cover will give a scaled up image;
+    contain will give a scaled down image.
+    this for some reason wasn't working for me.
+    instead i used object-fit and that works!
+*/
+.backgroundimage {
+    height: 800px;
+    width: 100%;
+    object-fit:cover;
+    background-position: center;
+}
+
+/*
+.hero {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -69,6 +88,7 @@ p {
   background-size: cover;
   background-position: center;
 }
+*/
 
 .float-left {
   float: left;

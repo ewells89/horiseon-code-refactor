@@ -29,16 +29,22 @@
 
     <!-- The div tag below is to display the background image for the page.
     did not update this to a section tag, since section tags require a header element.
+    had to take image source out of the CSS since CSS does not allow for alt text.
     source for this:https://howtodoinjava.com/html5/html5-section-tag/#:~:text=The%20HTML5%20tag%20defines,other%20sections%20of%20the%20document.&text=This%20means%20that%20it%20provides,a%20section%20of%20the%20document.  -->
-    <div class="hero"></div>
+    <div class = "hero">
+        <img class="backgroundimage" src="./assets/images/digital-marketing-meeting.jpg" alt="Stock background image.">
 
-     <!-- note to self: div tag above is correct, and corresponding CSS as well. 
-    DO NOT TOUCH. -->   
+    </div>
+
+
+    <!-- <div class="hero"></div> -->
+    <!-- note to self: div tag above is correct.
+        need to update HTML & CSS so that the image has an alt tag. -->   
 
     
     <div class="content">
 
-        <!-- to-do: convert the below div to a section -->
+        <!-- to-do: convert the below div to a section. add alt text to the images. -->
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -47,7 +53,7 @@
             </p>
         </div>
 
-        <!-- to-do: convert the below div to a section -->
+        <!-- to-do: convert the below div to a section. add alt text to the images. -->
         <div id="online-reputation-management" class="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
@@ -56,7 +62,7 @@
             </p>
         </div>
 
-        <!-- to-do: convert the below div to a section -->
+        <!-- to-do: convert the below div to a section. add alt text to the images. -->
         <div id="social-media-marketing" class="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
@@ -66,7 +72,7 @@
         </div>
         
     </div>
-    <!-- to-do: convert the below div to an aside; sub divs should remain the same, i think -->
+    <!-- to-do: convert the below div to an aside; sub divs should remain the same, i think. add alt text to the images. -->
     <div class="benefits">
 
         <div class="benefit-lead">
@@ -103,7 +109,7 @@
         </p>
     </div>
 
-    
+
 </body>
 
 </html>
