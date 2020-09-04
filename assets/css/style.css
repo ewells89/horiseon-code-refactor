@@ -74,7 +74,7 @@ p {
 */
 .backgroundimage {
     height: 800px;
-    width: 100%;
+    width: 100%;    
     object-fit:cover;
     background-position: center;
 }
@@ -89,6 +89,9 @@ p {
   background-position: center;
 }
 */
+
+/*note to self: everything above this point is correct and complete for the background image */
+/*-------------------------------------------------------------------------------------------*/
 
 .float-left {
   float: left;
@@ -105,6 +108,9 @@ p {
   display: inline-block;
   margin-left: 20px;
 }
+
+/*note to self: everything above this point is correct and complete for the sections tags */
+/*----------------------------------------------------------------------------------------*/
 
 .benefits {
   margin-right: 20px;
@@ -165,7 +171,21 @@ p {
   max-width: 150px;
 }
 
-.search-engine-optimization {
+
+.sections {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+ /*note to self: everything below this point is correct and complete for the sections tags */
+/*----------------------------------------------------------------------------------------*/
+
+
+/* .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -190,9 +210,13 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
+} */
+
+.sections img {
+  max-height: 200px;
 }
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
   max-height: 200px;
 }
 
@@ -202,8 +226,14 @@ p {
 
 .social-media-marketing img {
   max-height: 200px;
+} */
+
+.sections h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
+/*
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
@@ -218,6 +248,11 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
+ */
+
+
+ /*note to self: everything above this point is correct and complete for the sections tags */
+/*----------------------------------------------------------------------------------------*/
 
 .footer {
   padding: 30px;
