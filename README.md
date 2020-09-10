@@ -9,16 +9,30 @@ In addition to accessibility, this exercise also focuses on the simplification a
 ---
 ## Usage 
 
-Private use only for the purposes of practical exercise and assessment thereof.
+To view the live site click [here](https://ewells89.github.io/horiseon-code-refactor/).
+
+To access a copy of the repository for local use:
+* Download a copy of the repository by performing a git pull onto your local machine.
+* Open the html file in your browser to view the page.
+* Otherwise, open the repository using your preferred IDE.
+
+
+![screenshotofpage](./assets/images/pagescreenshot01.png)
+
 
 ---
 ## Credits
 
 ### Individuals:
 * Ga Tech Boot Camp Class
-* GA Tech Boot Camp Pod 4
-* Melissa (TA)
+* [Stef Lupo](https://github.com/lain7891)
+* [Ashley Ikeh](https://github.com/Aikeh2021)
+* Stephany Bolivar
+* [Shelby Cignetti](https://github.com/shelb-doc)
+* Melissa Arrington(TA)
+* All of GA Tech Boot Camp Pod 4
 
+(Github links provided where available.)
 
 ### Tutorials:
 
